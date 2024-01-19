@@ -28,7 +28,6 @@ def read_root(request: Request):
     # Additional information to be included in the response
     response_data = {
         "client_host": client_host,
-        "server_ip": server_ip,
         "uri": uri,
         "method": method,
         "status": status,
